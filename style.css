@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #0ed19d, #1291e5);
+  padding: 7vh 0;
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 0.2em;
+}
+
+#box {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 70%;
+  max-width: 1200px;
+  min-width: 400px;
+  margin: 0 auto;
+  height: 86vh;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.075);
+}
+
+#select-colors-title {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 42px;
+  padding: 5px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.1);
+}
+
+#color-pickers-box {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  /* padding: 12px; */
+  height: 140px;
+  width: 60%;
+  max-width: 400px;
+  min-width: 250px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.075);
+}
+
+.color-picker {
+  margin: 15px;
+  padding: 0;
+  height: 80%;
+  width: 100%;
+  border: none;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  transition: 0.15s;
+}
+
+.color-picker:hover {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+}
+
+.color-picker:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
+}
+
+.color-picker:focus {
+  outline: none;
+}
+
+#code-title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 28px;
+  /* font-weight: lighter; */
+  margin: 40px 0 20px 0;
+}
+
+#code-box {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
+  padding: 25px 25px;
+  width: 85%;
+  min-width: 350px;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.075);
+}
+
+#code {
+  text-align: center;
+  font-size: 18px;
+}
