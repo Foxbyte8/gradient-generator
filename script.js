@@ -11,6 +11,6 @@ function setGradient() {
   code.textContent = gradientStyle;
 }
 
-// input
+// DOM input
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
